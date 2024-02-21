@@ -23,7 +23,7 @@ const routes = [
     children: [
       {
         path: 'category',
-        component: () => import('@/layout/Admin/Category/Category.vue')
+        component: () => import('@/layout/Admin/Product/ProductView.vue')
       },
       {
         path: 'user',
